@@ -55,11 +55,11 @@ const Navbar = () => {
             <span className="hover:text-black transition-colors">CONTACT</span>
             <span className="absolute bottom-0 left-0 w-full h-0.5 bg-black transform scale-x-0 group-hover:scale-x-100 transition-transform"></span>
           </NavLink>
-          <a href={adminURL} target="_blank" rel="noopener noreferrer">
+          {/* <a href={adminURL} target="_blank" rel="noopener noreferrer">
             <button className="px-4 py-2 bg-black text-white rounded-lg hover:bg-gray-800 transition-colors text-sm">
               Admin Panel
             </button>
-          </a>
+          </a> */}
         </ul>
 
       {/* Options */}
